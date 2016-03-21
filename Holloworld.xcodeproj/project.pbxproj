@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		762147A91C927B490026F9CB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762147A81C927B490026F9CB /* Model.swift */; };
 		763D8E551C98F3F600E14D14 /* MajorArcanaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D8E541C98F3F600E14D14 /* MajorArcanaCard.swift */; };
+		9E5037291C9F9DDF0067BA52 /* TarotCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5037281C9F9DDF0067BA52 /* TarotCardTableViewController.swift */; };
+		9E50372B1C9F9F050067BA52 /* DeckOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50372A1C9F9F040067BA52 /* DeckOfCards.swift */; };
 		9E95675A1C8D17A40081A3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9567591C8D17A40081A3E5 /* AppDelegate.swift */; };
 		9E95675C1C8D17A40081A3E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E95675B1C8D17A40081A3E5 /* ViewController.swift */; };
 		9E95675F1C8D17A40081A3E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E95675D1C8D17A40081A3E5 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		762147A81C927B490026F9CB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		763D8E541C98F3F600E14D14 /* MajorArcanaCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorArcanaCard.swift; sourceTree = "<group>"; };
+		9E5037281C9F9DDF0067BA52 /* TarotCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarotCardTableViewController.swift; sourceTree = "<group>"; };
+		9E50372A1C9F9F040067BA52 /* DeckOfCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckOfCards.swift; sourceTree = "<group>"; };
 		9E9567561C8D17A40081A3E5 /* Holloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9567591C8D17A40081A3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E95675B1C8D17A40081A3E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				762147A81C927B490026F9CB /* Model.swift */,
+				9E50372A1C9F9F040067BA52 /* DeckOfCards.swift */,
 				763D8E541C98F3F600E14D14 /* MajorArcanaCard.swift */,
 			);
 			name = Model;
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				9E95675B1C8D17A40081A3E5 /* ViewController.swift */,
+				9E5037281C9F9DDF0067BA52 /* TarotCardTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				762147A91C927B490026F9CB /* Model.swift in Sources */,
+				9E50372B1C9F9F050067BA52 /* DeckOfCards.swift in Sources */,
+				9E5037291C9F9DDF0067BA52 /* TarotCardTableViewController.swift in Sources */,
 				763D8E551C98F3F600E14D14 /* MajorArcanaCard.swift in Sources */,
 				9E95675C1C8D17A40081A3E5 /* ViewController.swift in Sources */,
 				9E95675A1C8D17A40081A3E5 /* AppDelegate.swift in Sources */,

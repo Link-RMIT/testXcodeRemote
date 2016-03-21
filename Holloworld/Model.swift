@@ -8,18 +8,22 @@
 
 import Foundation
 
+
 class Model
 {
     var answers=["Go forth with faith",
     "Magic is on your side",
     "Plant the seed and it will grow"]
     var currentCardImageName=""
+    var currentCard:MajorArcanaCard = MajorArcanaCard.Fool
+    var deckOfCards:DeckOfCards
     init()
     {
         answers.append("Look to the stars to find your answer")
         answers.insert("You cannot do this alone",atIndex: 3)
         answers.removeAtIndex(4)
         answers.removeLast()
+        deckOfCards = DeckOfCards()
     }
     /*func respond()->String
     {
@@ -43,12 +47,16 @@ class Model
         message=Array(majorArcanaCards.values)[response]
         cardImageName=Array(majorArcanaCards.keys)[response]+".jpg"
     }*/
-    func respond()->(cardImageName:String,cardMessage:String){
+    /*func respond()->(cardImageName:String,cardMessage:String){
         let response: Int=Int(arc4random_uniform(UInt32(majorArcanaCards.count)))
         let cardMessage=Array(majorArcanaCards.values)[response]
         let cardImageName=Array(majorArcanaCards.keys)[response]+".jpg"
         return (cardImageName,cardMessage)
+    }*/
+    func respond()->String
+    {
+        let response:Int=Int(arc4random_uniform(UInt32(deckOfCards.deckOfCards.count)))
+        currentCard=Array(deckOfCards.deckOfCards)[response]
+        return currentCard.interpretation
     }
-
-    
-    }
+}
